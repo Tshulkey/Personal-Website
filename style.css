@@ -171,7 +171,7 @@ h5{
     font-size: 23px;
     margin-bottom: 15px;
 }
-.pra p{
+.Card_Description p{
     color: #c0c0c0;
     font-size: 16px;
     line-height: 27px;
@@ -266,4 +266,5 @@ footer p:nth-child(2){
     bottom:35px;
     font-size: 14px;
 }
+
 
