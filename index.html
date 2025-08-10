@@ -127,9 +127,13 @@
     
     <!----Contact Me start---->
     <div class="contact-me">
-        <a name="contact-me"></a>
-        <p>If you would like to please contact me</p>
-        <a class="button-two" href="mailto:tshulkey@gmail.com" target="tshulkey@gmail.com">Contact Me</a>
+    <p>If you would like to hire me please contact me</p>
+	<div class="tooltip">
+        <button class="button-two" onclick="clipBoardFunction()" onmouseout="HoverFunction()">
+        <span class="tooltiptext" id="myTooltip">Copy Text</span>
+        Contact Me
+        </button>
+        </div>
     </div>
     
     
@@ -145,12 +149,31 @@
         </div>
         <p class="end">&copy; 2022 Tonya Shulkey</p>
     </footer>
-    
-    
+
+        
+<script>
+function clipBoardFunction(){
+var copyToClip = "tshulkey@gmail.com";
+
+navigator.clipboard.writeText(copyToClip);
+
+
+var tooltip = document.getElementById("myTooltip");
+tooltip.innerHTML = "Copied";
+
+}
+
+function HoverFunction(){
+var tooltip = document.getElementById("myTooltip");
+tooltip.innerHTML = "Copy Text";
+}
+
+</script>
     
 </body>
 
 </html>
+
 
 
 
