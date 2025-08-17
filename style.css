@@ -130,6 +130,45 @@ h4{
 
 
 
+.Projects{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+.Projects img{
+    padding: 50px;
+    height: auto;
+    width: 500px;
+}
+
+.Project-text{
+    width: 550px;
+}
+.Project-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.Project-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.Project-text p{
+    color: #c0c0c0;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+
+
+
+
 .skills{
     background: #101010;
     width: 100%;
@@ -307,6 +346,7 @@ footer p:nth-child(2){
     bottom:35px;
     font-size: 14px;
 }
+
 
 
 
